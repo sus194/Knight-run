@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.PlayerMovementTest" time="0.115" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sukhrajpurewal/project/my-app/target/test-classes:/Users/sukhrajpurewal/project/my-app/target/classes:/Users/sukhrajpurewal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/sukhrajpurewal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sukhrajpurewal/.m2/repository/net/imagej/ij/1.53u/ij-1.53u.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sukhrajpurewal/project/my-app/target/surefire/surefirebooter8217971539355065345.jar /Users/sukhrajpurewal/project/my-app/target/surefire 2022-12-05T18-58-13_855-jvmRun1 surefire14651623956962875766tmp surefire_015487641419995996011tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sukhrajpurewal/project/my-app/target/test-classes:/Users/sukhrajpurewal/project/my-app/target/classes:/Users/sukhrajpurewal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/sukhrajpurewal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sukhrajpurewal/.m2/repository/net/imagej/ij/1.53u/ij-1.53u.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sukhrajpurewal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sukhrajpurewal/project/my-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/sukhrajpurewal/project/my-app/target/surefire/surefirebooter8217971539355065345.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="sukhrajpurewal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sukhrajpurewal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/y6/d_2zty9916g6l__ph9v8ky7w0000gn/T/"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/sukhrajpurewal/project/my-app"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sukhrajpurewal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="downFreePlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.071"/>
+  <testcase name="downCharacterPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.001"/>
+  <testcase name="upCharacterPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="rightCharacterPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="rightFreePlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.003"/>
+  <testcase name="leftCharacterPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="upFreePlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="downBlockedPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="upBlockedPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="leftBlockedPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="rightBlockedPlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+  <testcase name="leftFreePlayerMovementTest" classname="com.mycompany.app.PlayerMovementTest" time="0.002"/>
+</testsuite>
